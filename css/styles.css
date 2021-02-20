@@ -478,9 +478,9 @@ img {
 .card-caption {
     padding: 1em;
 }
-.card-btn {
+.card-btn, .btn-danger {
     display: block;
-    background-color: rgb(245, 171, 212);
+    background-color: #C5E3E8;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -488,8 +488,12 @@ img {
     border-radius: 4px;
     transition: all 0.7s;
 }
-.card-btn:hover {
-    background-color: rgb(238, 134, 191);
+
+.btn-danger {
+    background-color: skyblue;
+}
+.card-btn:hover, .btn-danger:hover {
+    background-color: aqua;
 }
 .canasta {
     border-radius: 4px;
